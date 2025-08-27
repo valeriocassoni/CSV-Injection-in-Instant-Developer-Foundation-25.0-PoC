@@ -46,10 +46,15 @@ Observed behavior:
 1.  Insert the above payload in any **user-controllable input field within a table that can be exported in CSV format** (in an application built with Instant Developer Foundation < 25.0).
     
 2.  Export the table as CSV.
+
+![:/images/CSV_Injection_1.png](https://github.com/valeriocassoni/CSV-Injection-in-Instant-Developer-Foundation-25.0-PoC/blob/main/images/CSV_Injection_1.png)
     
 3.  Open the exported CSV file in **Microsoft Excel** or **LibreOffice Calc**.
     
 4.  If **DDE launch** is enabled in Excel, the system calculator (`calc.exe`) is executed.
+
+![:/images/CSV_Injection_2.png](https://github.com/valeriocassoni/CSV-Injection-in-Instant-Developer-Foundation-25.0-PoC/blob/main/images/CSV_Injection_2.png)
+
     
 
 🔗 [Excel DDE launch documentation](https://learn.microsoft.com/en-us/office/troubleshoot/excel/security-settings)
