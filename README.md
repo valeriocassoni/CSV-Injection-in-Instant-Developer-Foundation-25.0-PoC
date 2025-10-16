@@ -1,4 +1,4 @@
-# CSV Injection in Instant Developer Foundation (< 25.0) – Proof of Concept (PoC)
+# CSV Injection in Instant Developer Foundation (< 25.0.9600) – Proof of Concept (PoC)
 
 ## 📌 Overview
 
@@ -11,8 +11,8 @@ As a result, spreadsheet software such as **Microsoft Excel** or **LibreOffice C
 ## Affected Software
 
 - **Framework:** Instant Developer Foundation <span style="color: #0d0d0d;">(framework)</span>
-- **Affected Versions:** < 25.0
-- <span style="color: #383a42;">**Patch Status**:</span> <span style="color: #383a42;">The issue has been acknowledged by the vendor and is expected to be fixed in a future release (≥ 25.0).</span>
+- **Affected Versions:** < 25.0.9600
+- <span style="color: #383a42;">**Patch Status**:</span> <span style="color: #383a42;">The issue has been acknowledged by the vendor and has been fixed in version 25.0.9600.</span>
 
 * * *
 
@@ -58,6 +58,9 @@ Observed behavior:
     
 
 🔗 [Excel DDE launch documentation](https://learn.microsoft.com/en-us/office/troubleshoot/excel/security-settings)
+
+## Release notes
+🔗 [Release Notes: Instant Developer Foundation - Version 25.0.9600](https://doc.instantdeveloper.com/?ARTID=0A1FE3DB-A827-4122-900D-BD17C7C9F292)
 
 * * *
 
