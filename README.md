@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-This repository contains a Proof of Concept (PoC) for a **CSV Injection (Formula Injection)** vulnerability affecting applications built with the **Instant Developer Foundation** framework (versions prior to 25.0). <span style="color: #0d0d0d;">Applications built with the vulnerable framework do not properly sanitize user-supplied input when exporting data in CSV format.</span>
+This repository contains a Proof of Concept (PoC) for a **CSV Injection (Formula Injection)** vulnerability (CVE-2025-60852) affecting applications built with the **Instant Developer Foundation** framework (versions prior to 25.0). <span style="color: #0d0d0d;">Applications built with the vulnerable framework do not properly sanitize user-supplied input when exporting data in CSV format.</span>
 
 As a result, spreadsheet software such as **Microsoft Excel** or **LibreOffice Calc** interprets certain values as formulas.
 
@@ -12,7 +12,7 @@ As a result, spreadsheet software such as **Microsoft Excel** or **LibreOffice C
 
 - **Framework:** Instant Developer Foundation <span style="color: #0d0d0d;">(framework)</span>
 - **Affected Versions:** < 25.0.9600
-- <span style="color: #383a42;">**Patch Status**:</span> <span style="color: #383a42;">The issue has been acknowledged by the vendor and has been fixed in version 25.0.9600.</span>
+- <span style="color: #383a42;">**Patch Status**:</span> <span style="color: #383a42;">Fixed in version 25.0.9600.</span>
 
 * * *
 
