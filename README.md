@@ -1,4 +1,4 @@
-# CSV Injection in Instant Developer Foundation (< 25.0.9600) – Proof of Concept (PoC)
+# CVE-2025-60852: CSV Injection in Instant Developer Foundation (< 25.0.9600) – Proof of Concept (PoC)
 
 ## 📌 Overview
 
